@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Forum4TE.Domain\Forum4TE.Domain.csproj" />
+    <ProjectReference Include="..\..\Security\Forum4TE.Security\Forum4TE.Security.csproj" />
+  </ItemGroup>
+
+</Project>

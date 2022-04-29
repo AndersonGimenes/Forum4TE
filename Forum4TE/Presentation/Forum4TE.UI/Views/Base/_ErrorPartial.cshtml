@@ -1,0 +1,12 @@
+﻿@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+
+<div class="alert alert-danger">@Model.ErrorMessage</div>
+
+<div>
+    <a asp-action="Get" asp-controller="Forum">Back to List</a>
+</div>
